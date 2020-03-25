@@ -1,0 +1,12 @@
+main()
+{ 
+   float imc, peso, altura;
+   
+   prinf("informe o seu peso: ");
+   scanf("%f",&peso);
+   printf("informe sua altura: ");
+   scanf("%f",&altura);
+   imc = peso / (altura*altura);
+   printf("O seu imc e: %f",imc);
+
+}
